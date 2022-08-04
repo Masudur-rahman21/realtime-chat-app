@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta property="og:title" content="Company Name"/>
+    <meta property="og:description" content=""/>
+    <meta property="og:url" content="https://sitename.com./"/>
+    <title>Live Room</title>
+    <!-- favicon  -->
+    <link rel="icon" type="image/x-icon" href="./images/logo/favicon.ico">
+    <!-- Boxicons CSS -->
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+    <!-- css file linked ---------------------->
+    <link rel="stylesheet" type="text/css" href="vendor/fontawesome/css/all.min.css">
+    <link rel="stylesheet" type="text/css" href="assets/style.css">
+</head>
+<body>
+      <!-- preloader ======================================= -->
+  <div class="preloader">
+    <div class="ring"></div>
+    <span id="loader-text">loading...</span>
+ </div>
+
+  <!-- left sidebar start ============================== -->
+  <div class="left-sidebar">
+    <div class="logo-content">
+      <div class="logo">
+        <i class="fa-solid fa-map"></i>
+        <h2 class="logo-name"><span>live</span><span class="room">room</span></h2>
+      </div>
+      <i id="menu-btn" class='bx bx-menu menu-control'></i>
+    </div>
+
+
+
+    <!-- left sidebar item start ===== -->
+    <ul class="sidebar-item">
+        <li id="menu-item">
+          <a href="./index.html" id="home-switch">
+            <i class="fa-solid fa-house" id="si-icon"></i>
+            <span class="item-name">home</span>
+          </a>
+          <span class="tooltip">home</span>
+        </li>
+        <li id="menu-item" class="active-menu">
+          <a href="./classroom.html" id="class-switch">
+            <i class="fa-brands fa-readme" id="si-icon"></i>
+            <span class="item-name">classroom</span>
+          </a>
+          <span class="tooltip">classroom</span>
+        </li>
+        <li id="menu-item">
+          <a href="./chat.html" id="chat-switch">
+            <i class="fa-solid fa-comment" id="si-icon"></i>
+            <span class="item-name">chat</span>
+          </a>
+          <span class="tooltip">chat</span>
+        </li>
+      </ul>
+      <!-- left sidebar item end  ===== -->
+
+
+
+    <!-- left sidebar light/dark & logout btn start -->
+    <ul class="customize">
+      <li>
+        <a href="#">
+          <i class="fa-solid fa-right-from-bracket" id="sc-icon"></i>
+          <span class="item-name">loguot</span>
+        </a>
+        <span class="tooltip">loguot</span>
+      </li>      
+      <li>
+        <a href="#" class="dark-btn">
+          <i class="dark-icon fa-solid fa-moon" id="sc-icon" ></i>
+          <i class="light-icon fa-solid fa-sun" id="sc-icon"></i>
+          <span class="item-name mode-text">dark mode</span>
+          
+          <div class="toggle-switch">
+            <span class="switch"></span>
+          </div>
+        </a>
+        <span class="tooltip mtt-text">dark mode</span>
+      </li>
+    </ul>
+    <!-- left sidebar light/dark & logout btn end-->
+  </div>
+  <!-- left sidebar end   ============================== -->
+
+
+<!-- main section start  ================================-->
+  <main class="main-section">
+        <!-- right sidebar start   ===== -->
+        <div class="right-sidebar">
+            <div class="profile">
+                <div class="profile-img">
+                    <img src="./images/profile.jpg" alt="image">
+                </div>
+                <div class="profile-text">
+                    <h4>mahbubur rahman</h4>
+                    <p><span>moderator</span><span style="text-transform:uppercase">-#ab</span></p>
+                </div>
+            </div>
+            <div class="bord">
+              <div class="bord-header">
+                <ul class="bord-tab">
+                    <li id="right-tab" class="active-tab notice">notice</li>
+                    <li id="right-tab" class="about">note</li>
+                    <li id="right-tab" class="pepole">pepole</li>
+                </ul>
+              </div>
+              <div class="bord-body">
+                
+              </div>
+
+              <div class="clock">
+                <div class="wrapper">
+                  <div class="display">
+                     <div id="time"></div>
+                  </div>
+                  <span></span>
+                  <span></span>
+               </div>
+              </div>
+            </div>
+        </div>
+        <!-- right sidebar end     ===== -->
+
+        <!-- live chat box start     ===== -->
+        <div class="chatbox">
+          <!-- chatbox-header      -->
+          <div class="chatbox-header">
+            <div class="header-left">
+              <img src="./images/live-room.jpg" alt="live">
+              <h1>মাসিক ইসলাহী মজলিস </h1>
+            </div>
+            <div class="header-right">
+              <ul>
+                <li class="search-area">
+                  <button class="search-btn" ><i class="fa-solid fa-magnifying-glass" ></i></button>
+                  <div class="search-box">
+                    <input type="text" name="" id="" placeholder="search...">
+                    <i class="fa-solid fa-circle-arrow-right"></i>
+                  </div>
+                </li>
+                <li class="menu-area">
+                  <button class="tree-dod" ><i class="fa-solid fa-ellipsis"></i></button>
+                  <div class="treedod-menu" id="treedod-menu">
+                    <ul>
+                      <li>archive</li>
+                      <li>muted</li>
+                      <li>delete</li>
+                    </ul>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+            <!-- chat area  -->
+            <div class="chatbox-body">
+              <!-- chat-area  -->
+              <div class="chat-area">
+                <div class="chat incoming">
+                  <div class="chat-details">
+                    <div class="chat-avatar">
+                      <img src="./images/avatar.jpg"  alt="">
+                    </div>
+                    <div class="chat-content">
+                      <div class="conversation">
+                        <div class="chat-text">
+                          <p>আজ ১৭ জুলাই, আন্তর্জাতিক ন্যায়বিচার দিবস। অপরাধ যে সময়ই হোক, আর যে স্থানেই হোক, মানুষ যেন বিচার পেতে পারে, সেই ধারণা</p>
+                        </div>
+                        <div class="text-dropdown">
+                          <div class="btn-div">
+                            <button type="button" ><i class="fa-solid fa-reply"></i></button>
+                            <button type="button" id="textside-btn" class="textside-btn"><i class="fa-solid fa-ellipsis-vertical"></i></button>
+                          </div>
+                          
+                          <ul id="text-cm" class="text-cm">
+                            <li>
+                              <span>reply</span>
+                              <span><i class="fa-solid fa-reply"></i></span>
+                            </li>
+                            <li>
+                              <span>copy</span>
+                              <span><i class="fa-solid fa-copy"></i></span>
+                            </li>
+                            <li>
+                              <span>delete</span>
+                              <span><i class="fa-solid fa-trash"></i></span>
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
+                      <div class="chat-user-name">
+                        <span>abdur rahman</span>
+                        <span id="code">-ab</span>
+                        <span>10:25pm</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+
+                
+
+
+                <div class="chat outgoing">
+                  <div class="chat-details">
+                    <div class="chat-avatar">
+                      <img src="./images/avatar.jpg"  alt="">
+                    </div>
+                    <div class="chat-content">
+                      <div class="conversation">
+                        <div class="chat-text">
+                          <p>আজ ১৭ জুলাই, আন্তর্জাতিক ন্যায়বিচার দিবস। অপরাধ যে সময়ই হোক, আর যে স্থানেই হোক, মানুষ যেন বিচার পেতে পারে, সেই ধারণা</p>
+                        </div>
+                        <div class="text-dropdown">
+                          <div class="btn-div">
+                            <button type="button" ><i class="fa-solid fa-reply"></i></button>
+                            <button type="button" id="textside-btn" class="textside-btn"><i class="fa-solid fa-ellipsis-vertical"></i></button>
+                          </div>
+                          
+                          <ul id="text-cm" class="text-cm">
+                            <li>
+                              <span>reply</span>
+                              <span><i class="fa-solid fa-reply"></i></span>
+                            </li>
+                            <li>
+                              <span>copy</span>
+                              <span><i class="fa-solid fa-copy"></i></span>
+                            </li>
+                            <li>
+                              <span>delete</span>
+                              <span><i class="fa-solid fa-trash"></i></span>
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
+                      <div class="chat-user-name">
+                        <span>abdur rahman</span>
+                        <span id="code">-ab</span>
+                        <span>10:25pm</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+
+              <!-- text-area  -->
+              <div class="text-area"></div>
+            </div>
+
+        </div>
+        <!-- live chat box end       ===== -->
+  </main>
+<!-- main section end    ================================-->
+
+
+
+    <!-- js file linked ------------------------>
+    <script src="assets/main.js"></script>
+    <script src="vendor/fontawesome/js/all.min.js"></script>
+</body>
+</html>
